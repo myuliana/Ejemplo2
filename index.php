@@ -10,6 +10,14 @@ and open the template in the editor.
         <title>Prueba de PHP</title>
     </head>
     <body>
- <?php echo '<p>Hola Mundo</p>'; ?>
+
+<?php
+   echo "Parte de PHP<br>";
+   
+   for($i=0;$i<10;$i++)
+   {
+      echo "Linea ".$i."<br>";
+     }
+?> 
  </body>
 </html>
